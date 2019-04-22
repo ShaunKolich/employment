@@ -11059,8 +11059,8 @@ a.bg-light:focus, a.bg-light:hover {
 a.bg-dark:focus, a.bg-dark:hover {
   background-color: #2e3345 !important; }
 
-.bg-white {
-  background-color: #ffffff !important; }
+/* .bg-white {
+  background-color: #ffffff !important; } */
 
 .bg-transparent {
   background-color: transparent !important; }
@@ -13086,7 +13086,10 @@ input:focus {
   position: absolute;
   width: 215px;
   z-index: 1;
-  transition: width .8s ease; }
+  /* border:2px solid red; */
+  background-color:rgb(36, 44, 54);
+  transition: width .8s ease;
+ }
   .sidebar .user-info {
     display: flex;
     flex-direction: column;
@@ -13102,7 +13105,9 @@ input:focus {
       text-align: center;
       margin-bottom: 0;
       font-size: 13px;
-      font-weight: 500; }
+      font-weight: 500;
+      color: #cacdd7;
+     }
     .sidebar .user-info p.designation {
       text-align: center;
       margin-bottom: 15px;
@@ -13136,7 +13141,7 @@ input:focus {
       -o-transition-duration: 0s;
       transition-duration: 0s; }
     .sidebar .nav .nav-item a.nav-link {
-      color: #636c72;
+      color: #1991EB;
       padding: 1em;
       white-space: nowrap;
       font-size: 13px; }
@@ -13217,7 +13222,7 @@ input:focus {
   transition: width .8s ease;
   width: 215px; }
   .navbar .navbar-brand-wrapper .navbar-brand {
-    color: #5a5f61;
+    color: #cacdd7;
     font-size: 2rem;
     margin-right: 0; }
     .navbar .navbar-brand-wrapper .navbar-brand:active, .navbar .navbar-brand-wrapper .navbar-brand:focus, .navbar .navbar-brand-wrapper .navbar-brand:hover {
@@ -13435,7 +13440,7 @@ input[type="search"], input, .form-control {
   transform: scale(0); }
 
 .bg-white {
-  background: white; }
+   }
 
 .bg-primary-gradient, .navbar.navbar-default {
   background: linear-gradient(#4b6cb7, #182848);
