@@ -13440,7 +13440,8 @@ input[type="search"], input, .form-control {
   transform: scale(0); }
 
 .bg-white {
-   }
+  background-color:rgb(36, 44, 54);
+}
 
 .bg-primary-gradient, .navbar.navbar-default {
   background: linear-gradient(#4b6cb7, #182848);
