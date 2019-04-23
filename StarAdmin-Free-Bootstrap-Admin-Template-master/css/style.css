@@ -12965,7 +12965,9 @@ a.text-dark:focus, a.text-dark:hover {
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 100%;
-  white-space: nowrap; }
+  white-space: nowrap;
+  color:#cacdd7;
+ }
 
 /*--Version 1.0.0--*/
 body {
