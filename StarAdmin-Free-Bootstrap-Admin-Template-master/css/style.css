@@ -13143,7 +13143,7 @@ input:focus {
       -o-transition-duration: 0s;
       transition-duration: 0s; }
     .sidebar .nav .nav-item a.nav-link {
-      color: #1991EB;
+      color: #cacdd7;
       padding: 1em;
       white-space: nowrap;
       font-size: 13px; }
@@ -13160,7 +13160,7 @@ input:focus {
       .sidebar .nav .nav-item a.nav-link:hover {
         color: #3f4549; }
     .sidebar .nav .nav-item.active > .nav-link {
-      color: #1991EB; }
+      color: #cacdd7; }
     .sidebar .nav.sub-menu {
       padding-left: 2.5em; }
       .sidebar .nav.sub-menu .nav-item.active .nav-link {
